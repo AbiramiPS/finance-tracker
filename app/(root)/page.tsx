@@ -1,6 +1,7 @@
-import HeaderBox from '@/components/HeaderBox'
-import TotalBalanceBox from '@/components/TotalBalanceBox';
-import TotalBalance from '@/components/TotalBalanceBox';
+"use client"
+import HeaderBox from '@/components/ui/HeaderBox'
+import TotalBalanceBox from '@/components/ui/TotalBalanceBox';
+import TotalBalance from '@/components/ui/TotalBalanceBox';
 import React from 'react'
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
         <TotalBalanceBox
         accounts ={[]}
         totalBanks={1}
-        totalCurrentBalance={1250}
+        totalCurrentBalance={1250.50}
         />
 
 
